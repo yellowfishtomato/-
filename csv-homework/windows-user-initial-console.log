@@ -1,0 +1,114 @@
+PS D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168> powershell -ExecutionPolicy Bypass -File .\scripts\Run-WindowsChecks.ps1 -DataDir "D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline\data"
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The CXX compiler identification is MSVC 19.44.35222.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- The C compiler identification is MSVC 19.44.35222.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Python3: D:/HUAZHONG/Anaconda3/python.exe (found version "3.12.7") found components: Interpreter
+-- Configuring done (16.8s)
+-- Generating done (0.2s)
+-- Build files have been written to: D:/HUAZHONG/WPS office course/KDevelop-Train/LessonCode/week01/homework/csv-import-pipeline-fixed-20261105-163726-8eb168/build-release
+閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+
+  1>Checking Build System
+  Building Custom Rule D:/HUAZHONG/WPS office course/KDevelop-Train/LessonCode/week01/homework/csv-import-pipeline-fixed-20261105-163726-8eb168/CMakeLists.txt
+  Building Custom Rule D:/HUAZHONG/WPS office course/KDevelop-Train/LessonCode/week01/homework/csv-import-pipeline-fixed-20261105-163726-8eb168/third_party/googletest/googletest/CMakeLists.txt
+  Building Custom Rule D:/HUAZHONG/WPS office course/KDevelop-Train/LessonCode/week01/homework/csv-import-pipeline-fixed-20261105-163726-8eb168/third_party/googletest/googlemock/CMakeLists.txt
+  Building Custom Rule D:/HUAZHONG/WPS office course/KDevelop-Train/LessonCode/week01/homework/csv-import-pipeline-fixed-20261105-163726-8eb168/third_party/googletest/googlemock/CMakeLists.txt
+  parser.cpp
+  gtest-all.cc
+  gtest-all.cc
+  gtest-all.cc
+  validator.cpp
+  pipeline.cpp
+  gmock-all.cc
+  gmock-all.cc
+D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\src\pipeline.cpp(86,37): warning C4324: 鈥渃svp::ImportPipeline::State鈥? 鐢变簬瀵归綈璇存槑绗︼紝缁撴瀯琚～鍏?[D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\csvp.vcxproj]
+D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\src\pipeline.cpp(86,74): warning C4324: 鈥渃svp::ImportPipeline::State鈥? 鐢变簬瀵归綈璇存槑绗︼紝缁撴瀯琚～鍏?[D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\csvp.vcxproj]
+D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\src\pipeline.cpp(86,95): warning C4324: 鈥渃svp::ImportPipeline::State鈥? 鐢变簬瀵归綈璇存槑绗︼紝缁撴瀯琚～鍏?[D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\csvp.vcxproj]
+D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\src\pipeline.cpp(89,35): warning C4324: 鈥渃svp::ImportPipeline::State鈥? 鐢变簬瀵归綈璇存槑绗︼紝缁撴瀯琚～鍏?[D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\csvp.vcxproj]
+  姝ｅ湪鐢熸垚浠ｇ爜...
+  gmock_main.cc
+  姝ｅ湪鐢熸垚浠ｇ爜...
+  姝ｅ湪鐢熸垚浠ｇ爜...
+  gtest.vcxproj -> D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\lib\Release\gtest.lib
+  Building Custom Rule D:/HUAZHONG/WPS office course/KDevelop-Train/LessonCode/week01/homework/csv-import-pipeline-fixed-20261105-163726-8eb168/third_party/googletest/googletest/CMakeLists.txt
+  csvp.vcxproj -> D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\Release\csvp.lib
+  gtest_main.cc
+  Building Custom Rule D:/HUAZHONG/WPS office course/KDevelop-Train/LessonCode/week01/homework/csv-import-pipeline-fixed-20261105-163726-8eb168/CMakeLists.txt
+  bench_import.cpp
+  gtest_main.vcxproj -> D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\lib\Release\gtest_main.lib
+  Building Custom Rule D:/HUAZHONG/WPS office course/KDevelop-Train/LessonCode/week01/homework/csv-import-pipeline-fixed-20261105-163726-8eb168/CMakeLists.txt
+  Building Custom Rule D:/HUAZHONG/WPS office course/KDevelop-Train/LessonCode/week01/homework/csv-import-pipeline-fixed-20261105-163726-8eb168/CMakeLists.txt
+  gmock.vcxproj -> D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\lib\Release\gmock.lib
+  test_parser.cpp
+  test_parser.cpp
+D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\tests\course_original\test_parser.cpp(108,16): warning C4267: 鈥滃垵濮嬪寲鈥? 浠庘€渟ize_t鈥濊浆鎹㈠埌鈥渋nt鈥濓紝鍙兘涓㈠け鏁版嵁 [D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\csvp_course_parser_tests.vcxproj]
+D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\tests\course_original\test_parser.cpp(114,16): warning C4267: 鈥滃垵濮嬪寲鈥? 浠庘€渟ize_t鈥濊浆鎹㈠埌鈥渋nt鈥濓紝鍙兘涓㈠け鏁版嵁 [D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\csvp_course_parser_tests.vcxproj]
+  test_validator.cpp
+  csvp_bench.vcxproj -> D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\Release\csvp_bench.exe
+  csvp_course_parser_tests.vcxproj -> D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\Release\csvp_course_parser_tests.exe
+  test_pipeline.cpp
+  gmock_main.vcxproj -> D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\lib\Release\gmock_main.lib
+  test_concurrent.cpp
+  test_regressions.cpp
+D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\tests\test_regressions.cpp(51,48): warning C4310: 绫诲瀷寮哄埗杞崲鎴柇甯搁噺鍊?[D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\csvp_tests.vcxproj]
+  test_features.cpp
+D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\tests\test_features.cpp(107,46): warning C4310: 绫诲瀷寮哄埗杞崲鎴柇甯搁噺鍊?[D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\csvp_tests.vcxproj]
+D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\tests\test_features.cpp(163,19): warning C4310: 绫诲瀷寮哄埗杞崲鎴柇甯搁噺鍊?[D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\csvp_tests.vcxproj]
+D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\tests\test_features.cpp(163,40): warning C4310: 绫诲瀷寮哄埗杞崲鎴柇甯搁噺鍊?[D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\csvp_tests.vcxproj]
+  test_original_data.cpp
+  姝ｅ湪鐢熸垚浠ｇ爜...
+  csvp_tests.vcxproj -> D:\HUAZHONG\WPS office course\KDevelop-Train\LessonCode\week01\homework\csv-import-pipeline-fixed-20261105-163726-8eb168\build-release\Release\csvp_tests.exe
+  Building Custom Rule D:/HUAZHONG/WPS office course/KDevelop-Train/LessonCode/week01/homework/csv-import-pipeline-fixed-20261105-163726-8eb168/CMakeLists.txt
+Test project D:/HUAZHONG/WPS office course/KDevelop-Train/LessonCode/week01/homework/csv-import-pipeline-fixed-20261105-163726-8eb168/build-release
+      Start  1: Parser.UTF8Basic
+ 1/61 Test  #1: Parser.UTF8Basic ............................................   Passed    0.05 sec
+      Start  2: Parser.HeaderMapping
+ 2/61 Test  #2: Parser.HeaderMapping ........................................   Passed    0.02 sec
+      Start  3: Parser.NoTrailingNewline
+ 3/61 Test  #3: Parser.NoTrailingNewline ....................................   Passed    0.01 sec
+      Start  4: Parser.ReentryState
+ 4/61 Test  #4: Parser.ReentryState .........................................   Passed    0.02 sec
+      Start  5: Parser.ChineseGBKEncoding
+ 5/61 Test  #5: Parser.ChineseGBKEncoding ...................................   Passed    0.05 sec
+      Start  6: Parser.EmptyFile
+ 6/61 Test  #6: Parser.EmptyFile ............................................   Passed    0.02 sec
+      Start  7: Parser.QuotedEscapedQuote
+ 7/61 Test  #7: Parser.QuotedEscapedQuote ...................................   Passed    0.02 sec
+      Start  8: Parser.CRLFLFMixedCR
+ 8/61 Test  #8: Parser.CRLFLFMixedCR ........................................   Passed    0.01 sec
+      Start  9: Parser.ChineseGBKValidRows
+ 9/61 Test  #9: Parser.ChineseGBKValidRows ..................................   Passed    0.01 sec
+      Start 10: Parser.SuppliedLFFileDoesNotGainInventedCR
+10/61 Test #10: Parser.SuppliedLFFileDoesNotGainInventedCR ..................   Passed    0.03 sec
+      Start 11: Validator.TypeCheckString
+11/61 Test #11: Validator.TypeCheckString ...................................   Passed    0.05 sec
+      Start 12: Validator.TypeCheckInt
+12/61 Test #12: Validator.TypeCheckInt ......................................   Passed    0.01 sec
+      Start 13: Validator.TypeCheckDouble
+13/61 Test #13: Validator.TypeCheckDouble ...................................   Passed    0.02 sec
+      Start 14: Validator.RequiredField
+14/61 Test #14: Validator.RequiredField .....................................   Passed    0.02 sec
+      Start 15: Validator.RangeCheck
+15/61 Test #15: Validator.RangeCheck ........................................   Passed    0.05 sec
+      Start 16: Validator.RegexCheck
+16/61 Test #16: Validator.RegexCheck ........................................   Passed    0.01 sec
+      Start 17: Validator.MultipleRules
+17/61 Test #17: Validator.MultipleRules .....................................   Passed    0.01 sec
+      Start 18: Pipeline.SyncSmallClean
