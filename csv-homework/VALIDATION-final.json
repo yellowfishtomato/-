@@ -1,0 +1,62 @@
+{
+  "default_suite_note": "61 revised/strengthened tests using original fixtures plus clearly labelled reference samples. This is NOT a claim that all original teacher assertions pass.",
+  "original_parser_audit": {
+    "tests": 8,
+    "passed": 6,
+    "failed": 2,
+    "file": "course-original-parser-audit.log",
+    "reason": "invalid GBK D4 2C and absent CR in the supplied CRLF fixture; user confirmed local hex"
+  },
+  "release": {
+    "tests": 61,
+    "passed": true,
+    "build_warnings": 0
+  },
+  "debug": {
+    "tests": 61,
+    "passed": true,
+    "build_warnings": 0
+  },
+  "asan": {
+    "tests": 61,
+    "passed": true,
+    "build_warnings": 0
+  },
+  "shuffled_repeat": {
+    "tests_per_iteration": 61,
+    "iterations": 100,
+    "passed": true
+  },
+  "original_100k": {
+    "rows": 100000,
+    "imported": 98000,
+    "skipped": 2000,
+    "verified_runs": 3,
+    "raw_bytes_line_numbers_and_reasons_verified": true,
+    "before_average_ms": 6512.84,
+    "after_average_ms": 56.269,
+    "speedup_same_host": 115.74
+  },
+  "original_data_bytes": "All 11 uploaded small files verified against manifest; COURSE_DATA_README.md stores original ReadMe.md without a Windows case collision.",
+  "windows_msvc_tests": {
+    "status": "PASSED according to user-run script completion",
+    "revised_suite_tests": 61,
+    "configurations": [
+      "Release",
+      "Debug"
+    ],
+    "repeat_iterations": 100,
+    "warnings_present": true,
+    "source": "windows-user-console-summary.log and user-local Windows evidence directory"
+  },
+  "official_1gb_memory_and_error_audit": {
+    "status": "PASSED in user Windows run",
+    "sync_peak_working_set_bytes": 4669440,
+    "streaming_peak_working_set_bytes": 5029888,
+    "verified_errors_each_mode": 10000,
+    "sha256": "89fa6c306b9730ea71a782da699c64cec1efc6b4097852bb457bc30abc9477d0",
+    "source": "windows-user-measurements.json; exact JSON files remain on local Windows"
+  },
+  "leak_sanitizer": "UNAVAILABLE: explicit ptrace incompatibility, see leak-check.log",
+  "windows_asan": "Not requested/run in this invocation"
+}
