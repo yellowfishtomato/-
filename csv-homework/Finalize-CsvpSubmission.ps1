@@ -99,7 +99,7 @@ try {
     foreach ($Item in $Items) {
         $Path = Join-Path $ProjectDir $Item
         if (!(Test-Path -LiteralPath $Path)) { continue }
-        $Entries = @(Get-Item -LiteralPath $Path)
+        $Entries = @(Get-Item -LiteralPath $Path -Force)
         if ($Entries[0].PSIsContainer) { $Entries = @(Get-ChildItem -LiteralPath $Path -Recurse -File -Force) }
         foreach ($File in $Entries) {
             $Relative = $File.FullName.Substring($RootPrefix.Length).Replace('\','/')
