@@ -1,0 +1,50 @@
+{
+  "provenance": "User-provided console excerpt; full JSON and logs remain in the user Windows evidence directory. Console elapsed_ms values are rounded displays.",
+  "date": "2026-11-05",
+  "compiler": "MSVC 19.44.35222.0, Visual Studio 2022 x64",
+  "windows_evidence_directory": "D:\\HUAZHONG\\WPS office course\\KDevelop-Train\\LessonCode\\week01\\homework\\csv-import-pipeline-fixed-20261105-163726-8eb168\\evidence\\windows-20261105-164201",
+  "checks_passed": true,
+  "revised_suite_tests": 61,
+  "release_debug_and_repeat100": "Passed according to successful completion of Run-WindowsChecks.ps1; full logs on local Windows",
+  "original_1gb": {
+    "bytes": 1003898922,
+    "sha256": "89fa6c306b9730ea71a782da699c64cec1efc6b4097852bb457bc30abc9477d0",
+    "cloud_supplemental_file_sha256_matches": true,
+    "sync": {
+      "rows_imported": 9990000,
+      "rows_skipped": 10000,
+      "errors_recorded": 10000,
+      "verified_errors": 10000,
+      "console_elapsed_ms": 10596.5,
+      "peak_working_set_bytes": 4669440
+    },
+    "streaming": {
+      "rows_imported": 9990000,
+      "rows_skipped": 10000,
+      "errors_recorded": 10000,
+      "verified_errors": 10000,
+      "console_elapsed_ms": 11333.1,
+      "peak_working_set_bytes": 5029888
+    },
+    "peak_commit_note": "Exact values are in local JSON. The --large gate and verify_original.py succeeded; no exact commit bytes inferred from the console excerpt."
+  },
+  "original_100k": {
+    "rows_imported": 98000,
+    "rows_skipped": 2000,
+    "errors_recorded": 2000,
+    "console_elapsed_ms": [
+      57.7076,
+      90.2446,
+      52.6973
+    ],
+    "console_average_ms": 66.88316666666667
+  },
+  "windows_asan": "Not run: command did not include -WithASan",
+  "windows_baseline": "Not run in this invocation: command did not include -WithBaseline",
+  "warnings": [
+    "C4324 alignment padding in State",
+    "C4267 narrowing in verbatim course audit test",
+    "C4310 intentional non-ASCII test byte construction"
+  ],
+  "unmodified_teacher_assertions": "Two original parser assertion/fixture contradictions remain documented; default 61-test suite includes explicit corrections."
+}
